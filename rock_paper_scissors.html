@@ -7,20 +7,23 @@
 
     <body>
         <h1>Rock Paper Scissors Project v0</h1>
+
+        <div class="score-container">
+            <strong>Player Score: <span class="score" id="player-score">0</span></strong>
+            <strong>Computer Score: <span class="score" id="computer-score">0</span></strong>
+        </div>
         
+        <div id="option-container">
+            <button class="rps-choice" id ="rock" type="click">Rock</button>
+            <button class="rps-choice" id="paper" type="click">Paper</button>
+            <button class="rps-choice" id="scissors" type="click">Scissors</button>
+        </div>
 
-        <!-- <fieldset>
-            <legend>Select one: Rock / Paper / Scissors</legend>
-
-            <label for="myDropdown">Choose::</label>
-            <select id="myDropdown" name="myDropdown">
-                <option value="Rock" id="rock">Rock</option>
-                <option value="Paper" id="paper">Paper</option>
-                <option value="Scissors" id="scissors">Scissors</option>
-            </select>
-            <button type="button" id="shoot">Shoot!</button>
-        </fieldset> -->
-
+        <div class="results-container">
+        <p id="results-msg"></p>
+        <p id="winner-msg"></p>
+        <button class="btn" id="reset-game-btn" display="none">Play again?</button>
+      </div>
         <!-- </form> -->
 
         <!-- <div class="rps-choice"><span id="player">Player Selects:</span></div>
